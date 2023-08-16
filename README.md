@@ -87,13 +87,13 @@ Certainly, here's a detailed step-by-step guide for uploading the CSV file and J
 
    - Click on the created bucket.
    - Click on the "Upload" button.
-   - Select your downloaded CSV file [ Prediction Output ]  (https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/blob/main/prediction_results.csv`) and click "Next."
+   - Select your downloaded CSV file (https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/blob/main/prediction_results.csv`) and click "Next."
    - Keep default settings and click "Next."
    - Review and click "Upload."
 
 3. **Uploading JSON File**
 
-   - Similarly, upload the [ JSON file ] (https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/blob/main/manifest-file%2C%20(quicksight).json) you have to the same bucket using the "Upload" button.
+   - Similarly, upload the (https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/blob/main/manifest-file%2C%20(quicksight).json) you have to the same bucket using the "Upload" button.
    - Follow the same process as with the CSV file.
 
 4. **Creating an Amazon QuickSight Dataset**
