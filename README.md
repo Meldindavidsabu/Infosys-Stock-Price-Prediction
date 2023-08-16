@@ -15,4 +15,4 @@ Stock price prediction is a common problem in financial analysis. In this projec
 
 I will be using historical stock price data covering the period from January 2, 1996 to August 14, 2023, (BSE Data).
 
-Data Collection: You can download the historical stock price data as a CSV file from your preferred company's website/ official websites of the stock exchanges or can use the provided CSV file in the repository➡️ (https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/blob/main/INFOSYS%20STOCK%20(HISTORICAL%20PRICES).csv).
+Data Collection: You can download the historical stock price data as a CSV file from your preferred company's website/ official websites of the stock exchanges or can use the provided CSV file in the repository➡️(https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/blob/main/INFOSYS%20STOCK%20(HISTORICAL%20PRICES).csv).
