@@ -74,4 +74,70 @@ Certainly, I'll provide you with a detailed step-by-step guide based on your ins
    - You will be presented with the output data based on the model's predictions.
 
 Remember that these steps provide a general guideline based on your description. The exact options and buttons might vary slightly depending on updates and changes to the Amazon SageMaker interface. Additionally, the accuracy of your predictions will depend on the quality of the model, the features you've selected, and the nature of the stock market data.
+Certainly, here's a detailed step-by-step guide for uploading the CSV file and JSON file to an S3 bucket and then using Amazon QuickSight to visualize the data:
 
+### Step-by-Step Guide: Uploading Data to S3 and Visualizing with Amazon QuickSight
+
+1. **Uploading Files to S3 Bucket**
+
+   - Go to the [Amazon S3 Console](https://s3.console.aws.amazon.com/s3/).
+   - Click on "Create bucket" to create a new bucket or select an existing one.
+
+2. **Uploading CSV File**
+
+   - Click on the created bucket.
+   - Click on the "Upload" button.
+   - Select your downloaded CSV file [ Prediction Output ]  (https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/blob/main/prediction_results.csv`) and click "Next."
+   - Keep default settings and click "Next."
+   - Review and click "Upload."
+
+3. **Uploading JSON File**
+
+   - Similarly, upload the [ JSON file ] (https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/blob/main/manifest-file%2C%20(quicksight).json) you have to the same bucket using the "Upload" button.
+   - Follow the same process as with the CSV file.
+
+4. **Creating an Amazon QuickSight Dataset**
+
+   - Go to the [Amazon QuickSight Console](https://quicksight.aws.amazon.com/).
+   - Click "Datasets" on the left-hand menu.
+   - Click "New dataset" and choose "S3."
+   - Choose your S3 bucket.
+   - Select the uploaded CSV file and click "Connect."
+
+5. **Data Preparation in QuickSight**
+
+   - QuickSight might detect column types, but you can adjust them if needed.
+   - Follow the steps to preview and save the dataset.
+
+6. **Creating Visualizations**
+
+   - Click "Analysis" on the left-hand menu.
+   - Click "New analysis."
+   - Select the dataset you created.
+
+7. **Creating Visualizations Using QuickSight**
+
+   - Click "Add" to add a visual.
+   - Choose the visualization type you want (e.g., line chart, bar chart, etc.).
+   - Drag and drop columns onto the visual's fields.
+   - Adjust settings, labels, and formatting as needed.
+
+8. **Adding Insights (Optional)**
+
+   - Use "Insights" to automatically generate visualizations based on your data.
+   - Click "Insights" on the left-hand menu.
+   - Choose "Create a new insight" and follow the steps.
+
+9. **Creating a Dashboard**
+
+   - After creating visuals and insights, you can create a dashboard to combine them.
+   - Click "Add" and choose "Dashboard."
+   - Add visuals and insights to the dashboard canvas.
+   - Arrange and resize them as desired.
+
+10. **Publishing and Sharing**
+
+   - Once your dashboard is ready, click "Share" in the top-right corner.
+   - Choose options for sharing with others.
+
+Remember that Amazon QuickSight offers various customization and visualization options. The steps provided here give you a basic guide, but you can explore more features in QuickSight to fine-tune your visualizations and insights.
