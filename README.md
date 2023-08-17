@@ -100,7 +100,7 @@ Certainly, I'll provide you with a detailed step-by-step guide based on your ins
 https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/533c25a1-1314-4524-a927-99b78bc9cdd0
 
    - You will be presented with the output data based on the model's predictions.
-   - 
+
 ![single_prediction_results](https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/104a96df-2af7-4fcf-a20d-8083eb7ff6b2)
 
 
