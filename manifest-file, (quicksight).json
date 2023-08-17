@@ -2,7 +2,7 @@
    "fileLocations": [
        {
            "URIs": [
-               "s3://quicksight-bucket-infy/Infosys-Stock-Price-Prediction.csv"
+               "s3://your-bucket-name/Infosys-Stock-Price-Prediction.csv"
            ]
        }
    ],
@@ -13,3 +13,4 @@
        "containsHeader": "true"
    }
 }
+#type the name of your bucket instead of 'your-bucket-name'
