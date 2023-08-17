@@ -30,20 +30,20 @@ Certainly, I'll provide you with a detailed step-by-step guide based on your ins
 2. **Setting Up SageMaker Domain**
    - On the SageMaker Dashboard, click on "Set up SageMaker Studio Domain."
    - Choose a unique domain name and click "Next."
-   - 
+     
    <img width="917" alt="user profile, 1" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/dcc9e66f-b129-4366-bf8c-576a516bb199">
 
 3. **Creating Execution Role**
    - Under "Execution Role," click "Create a new role."
    - Select "Any S3 bucket" and click "Create role."
    - Leave other settings as default and click "Submit."
-   - 
+   
 <img width="718" alt="role" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/55e4893b-b1c2-440a-848d-e69511486550">
 
 4. **Domain Status Check**
    - Wait for the domain status to change to "InService."
    - Once it's in "InService," click on the name of the domain.
-   - 
+     
 <img width="956" alt="domain 3" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/db7869ea-4800-407c-9c26-c2651a098f1d">
 
 5. **Launching SageMaker Studio**
@@ -56,7 +56,7 @@ Certainly, I'll provide you with a detailed step-by-step guide based on your ins
 7. **Importing CSV File**
    - In the Canvas dashboard, head to the "Datasets" item bar.
    - Import the CSV file containing historical stock price data.
-   - 
+     
 <img width="959" alt="infy 4" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/76bd772a-b681-43c1-9a91-8921660bb4f6">
 
 8. **Creating a Model**
@@ -65,7 +65,7 @@ Certainly, I'll provide you with a detailed step-by-step guide based on your ins
 
 9. **Selecting Dataset**
    - Choose the imported dataset for the model and click the "Select dataset" icon.
-   - 
+     
 <img width="955" alt="S3 5" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/b184ee67-4e10-48f1-80af-edb597103322">
 
 10. **Selecting Prediction Target**
@@ -87,18 +87,23 @@ Certainly, I'll provide you with a detailed step-by-step guide based on your ins
 
 13. **Initiating Model Building**
    - Click on "Quick build" to initiate the model building process.
-   - 
+     
 <img width="950" alt="preview of data 11" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/46d79408-ba35-4ce1-9d22-617d2f847ac6">
 
    - Now, wait patiently as the model is being built (this can take around 14-20 minutes).
-   - 
+     
 <img width="960" alt="analysis 12" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/02bff168-6580-4269-9e00-149cf1182cb5">
 
 14. **Predicting Using the Model**
    - Once the model building is complete, select "Predict" to generate predictions.
+     
+https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/533c25a1-1314-4524-a927-99b78bc9cdd0
+
    - You will be presented with the output data based on the model's predictions.
    - 
-https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/533c25a1-1314-4524-a927-99b78bc9cdd0
+![single_prediction_results](https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/104a96df-2af7-4fcf-a20d-8083eb7ff6b2)
+
+
 
 Remember that these steps provide a general guideline based on your description. The exact options and buttons might vary slightly depending on updates and changes to the Amazon SageMaker interface. Additionally, the accuracy of your predictions will depend on the quality of the model, the features you've selected, and the nature of the stock market data.
 Certainly, here's a detailed step-by-step guide for uploading the CSV file and JSON file to an S3 bucket and then using Amazon QuickSight to visualize the data:
