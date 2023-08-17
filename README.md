@@ -8,6 +8,7 @@ This repository contains the necessary code and resources to predict Infosys Com
 The stock price prediction results presented in this project are for educational and illustrative purposes only. They are based on historical data and machine learning algorithms, which may not accurately reflect future market behavior. The financial markets are complex and subject to various unpredictable factors that can impact stock prices. This project's predictions should not be used for making actual stock picking or investment decisions. It's crucial to consult with financial professionals and conduct thorough research before making any investment choices. Remember that all investments carry risks, and past performance is not indicative of future results.
 
 Introduction
+
 Stock price prediction is a common problem in financial analysis. In this project, i aim to predict the stock prices of Infosys Company using historical stock price data. Three essential components of stock data are:
 * Volume: The total number of shares traded during a given period.
 * Opening Price: The price at which a stock starts trading when the market opens.
