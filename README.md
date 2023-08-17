@@ -1,7 +1,7 @@
 # Infosys-Stock-Price-Prediction
 Stock price prediction of Infosys Limited by analysing historical data using AWS services.
 
-This repository contains the necessary code and resources to predict Infosys Company's stock prices. The prediction is achieved by utilizing Amazon S3 Bucket for data storage, Amazon SageMaker for building and deploying the predictive model and is visualised using Amazon Quicksight.
+This repository contains the necessary code and resources to predict Infosys Company's stock prices. The prediction is achieved by utilizing Amazon S3 Bucket for data storage, Amazon SageMaker for building, deploying the predictive model and is visualised using Amazon Quicksight.
 
 ⚠️ Important Disclaimer: Please Read Before Proceeding ⚠️
 
