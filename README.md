@@ -114,7 +114,7 @@ Certainly, here's a detailed step-by-step guide for uploading the CSV file and J
 
    - Go to the [Amazon S3 Console](https://s3.console.aws.amazon.com/s3/).
    - Click on "Create bucket" to create a new bucket or select an existing one.
-
+   
 2. **Uploading CSV File**
 
    - Click on the created bucket.
@@ -127,14 +127,23 @@ Certainly, here's a detailed step-by-step guide for uploading the CSV file and J
 
    - Similarly, upload the JSON File  (https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/blob/main/manifest-file%2C%20(quicksight).json) you have to the same bucket using the "Upload" button.
    - Follow the same process as with the CSV file.
+     
+<img width="959" alt="s3 bucket" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/a22a8275-6b34-43ef-8754-2d8fa24c4d94">
+
 
 4. **Creating an Amazon QuickSight Dataset**
 
    - Go to the [Amazon QuickSight Console](https://quicksight.aws.amazon.com/).
    - Click "Datasets" on the left-hand menu.
    - Click "New dataset" and choose "S3."
+
+<img width="947" alt="2" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/606a2bc4-0852-49d8-8a38-74723767f2c3">
+
    - Choose your S3 bucket.
    - Select the uploaded CSV file and click "Connect."
+
+<img width="954" alt="3" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/1a2935f2-792b-4646-94c8-9e38fd0348d6">
+   
 
 5. **Data Preparation in QuickSight**
 
@@ -151,8 +160,15 @@ Certainly, here's a detailed step-by-step guide for uploading the CSV file and J
 
    - Click "Add" to add a visual.
    - Choose the visualization type you want (e.g., line chart, bar chart, etc.).
+
+<img width="960" alt="4" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/a2ef0acc-9602-446d-ac7f-e097275a7fc8">
+
+<img width="440" alt="5" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/174a67bf-9832-4fc0-80a6-07db7c141aa7">
+
    - Drag and drop columns onto the visual's fields.
    - Adjust settings, labels, and formatting as needed.
+     
+<img width="959" alt="7" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/4447e89e-9892-496e-845a-2da8860d129b">
 
 8. **Adding Insights (Optional)**
 
