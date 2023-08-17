@@ -125,7 +125,7 @@ Certainly, here's a detailed step-by-step guide for uploading the CSV file and J
 
 3. **Uploading JSON File**
 
-   - Similarly, upload the JSON File  (https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/blob/main/manifest-file%2C%20(quicksight).json) you have to the same bucket using the "Upload" button.
+   - Similarly, upload the JSON File  (https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/blob/main/manifest-file%2C%20(quicksight).json) you have to the same bucket using the "Upload" button (type the name of your bucket instead of 'your-bucket-name' in the JSON File)
    - Follow the same process as with the CSV file.
      
 <img width="959" alt="s3 bucket" src="https://github.com/Meldindavidsabu/Infosys-Stock-Price-Prediction/assets/80899101/a22a8275-6b34-43ef-8754-2d8fa24c4d94">
